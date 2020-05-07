@@ -17,6 +17,8 @@ async function* websocketEvents(socket: WebSocket, options?: { emitOpen: boolean
 ```
 Allows to iteratate over `message` events emited by websocket. If `emitOpen` is true then also yields `open` event.
 
+### code:
+
 ```js
 import { websocketData, websocketEvents } from 'websocket-iterator'
 
