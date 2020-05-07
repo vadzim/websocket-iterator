@@ -3,11 +3,14 @@
 Tiny adapter to iterate over websocket.
 Correctly closes websocket on loop break.
 
+## websocketData
+
 ```js
 async function* websocketData(socket: WebSocket)
 ```
 Allows to iteratate over data emited by websocket.
 
+## websocketEvents
 
 ```js
 async function* websocketEvents(socket: WebSocket, options?: { emitOpen: boolean })
